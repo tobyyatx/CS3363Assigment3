@@ -1,3 +1,5 @@
+Figma: https://www.figma.com/design/nXJFLrFWPj7AXBYLwhsGL2/Figma-Design?node-id=0-1&node-type=canvas&t=K9Y8Z3IyVkbQNyNc-0
+Live version: https://tobyassignment3.netlify.app/
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
