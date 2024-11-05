@@ -1,7 +1,9 @@
+import { useNavigation } from 'expo-router';
 import React from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
-const LoginScreen = ({ navigation }) => {
+const LoginScreen = () => {
+  const navigation = useNavigation()
   return (
     <View style={styles.container}>
       <View style={styles.ellipse} />

@@ -1,14 +1,15 @@
-import { createStackNavigator } from '@react-navigation/stack';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import LoginScreen from "../LoginScreen";
-import AnotherScreen from "../design2";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import LoginScreen from '../LoginScreen'; 
+import AnotherScreen from '../design2';   
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
-export default function Tabs() {
+export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName="login">
         <Stack.Screen 
           name="login" 
           component={LoginScreen} 
